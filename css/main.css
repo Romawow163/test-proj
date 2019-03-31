@@ -169,17 +169,51 @@ ul li {
 }
 
 .pagination {
-    margin-bottom: 123px;
+    margin: 66px 50% 123px;
+    width: 450px;
 }
 
 
 .pagination__prev {
     display: inline-block;
+    text-decoration: none;
+    color: #000;
 }
+
+.pagination__next {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.pagination__control {
+    width: 280px;
+    display: inline-block;
+    margin: auto;
+}
+
+
+
+.paginations__display {
+    width: 130px;
+    margin: auto;
+    display: inline-block;
+}
+
+
+
 
 .pagination__pages-item {
     display: inline-block;
     padding-left: 18px;
+}
+
+.pagination__link {
+    text-decoration: none;
+    font-family: Roboto;
+    color: #221f1f;
+    font-weight: 700;
+    line-height: 21px;
 }
 
 
@@ -229,11 +263,21 @@ ul li {
     width: 264px;
     height: 48px;
     display: inline-block;
-    
+
 
 }
 
 .footer__author-text {
     color: #ffff;
     font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+.footer__link {
+    color: #fff;
+}
+
+.author {
+    font-weight: 700;
 }
