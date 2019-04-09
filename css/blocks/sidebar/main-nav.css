@@ -1,0 +1,102 @@
+.main-nav__link {
+    color: #ec1e79;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 54px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding-left: 36px;
+    text-decoration: none;
+}
+
+.main-nav__icon {
+    position: relative;
+}
+
+.main-nav__icon::before,
+.main-nav__icon::after {
+    left: 0;
+    top: -2px;
+    content: "";
+    position: absolute;
+    background: url("/img/sprites.png");
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.main-nav__item .main-nav__icon--main::after,
+.main-nav__item .main-nav__icon--feed::after,
+.main-nav__item .main-nav__icon--wallet::after {
+    opacity: 0;
+}
+
+/*При нажатии*/
+
+.main-nav__item.active .main-nav__link {
+    color: #221f1f;
+}
+
+.main-nav__item.active .main-nav__icon--main::after,
+.main-nav__item.active .main-nav__icon--feed::after,
+.main-nav__item.active .main-nav__icon--wallet::after {
+    opacity: 1;
+}
+
+/*При наведениее мышкой - ховер*/
+
+.main-nav__link:hover {
+    color: #221f1f;
+}
+
+.main-nav__icon:hover.main-nav__icon--main::after,
+.main-nav__icon:hover.main-nav__icon--feed::after,
+.main-nav__icon:hover.main-nav__icon--wallet::after {
+    opacity: 1;
+}
+
+
+.main-nav__link:hover::after {
+    opacity: 1;
+}
+
+.main-nav__icon--main::before {
+    background-position: 0px -2px;
+    width: 17px;
+    height: 15px;
+}
+
+
+.main-nav__icon--feed::before {
+    background-position: -39px 0;
+    width: 20px;
+    height: 18px;
+}
+
+.main-nav__icon--wallet::before {
+    background-position: -83px -2px;
+    width: 19px;
+    height: 16px;
+}
+
+.main-nav__icon--main::after {
+    opacity: 0;
+    background-position: -21px -2px;
+    width: 18px;
+    height: 17px;
+}
+
+.main-nav__icon--feed::after {
+    opacity: 0;
+    background-position: -60px 0;
+    width: 20px;
+    height: 18px;
+}
+
+.main-nav__icon--wallet::after {
+    opacity: 0;
+    background-position: -104px -2px;
+    width: 19px;
+    height: 16px;
+}
