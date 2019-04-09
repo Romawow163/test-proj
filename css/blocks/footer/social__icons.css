@@ -19,23 +19,23 @@
 }
 
 .link__vk--pic {
-    background: url('/img/vk.png') no-repeat;
+    background: url('./../../../img/vk.png') no-repeat;
 }
 
 .link__fb--pic {
-    background-image: url('/img/fb.png');
+    background-image: url('../../../img/fb.png');
 }
 
 .link__google--pic {
-    background-image: url('/img/google.png');
+    background-image: url('./../../../img/twitter.png');
 }
 
 .link__twitter--pic {
-    background-image: url('/img/google.png')
+    background-image: url('./../../../img/google.png')
 }
 
 .link__mail--pic {
-    background-image: url('/img/mail.png');
+    background-image: url('../../../img/mail.png');
 }
 
 .social__icon:hover {
