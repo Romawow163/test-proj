@@ -26,11 +26,11 @@
 @import url('./blocks/comments/reviews.css');
 @import url('./blocks/comments/reviews__card.css');
 @import url('./blocks/comments/addinational.css');
-@import url('/css/blocks/comments/form.css');
+@import url('./blocks/comments/form.css');
 
-@import url('/css/blocks/price/price__desc.css');
-@import url('/css/blocks/price/price__img.css');
-@import url('/css/blocks/price/rice__img-title.css');
-@import url('/css/blocks/price/price__desc-title.css');
-@import url('/css/blocks/price/price__desc-text.css');
-@import url('/css/blocks/price/price-blocks.css');
+@import url('./blocks/price/price__desc.css');
+@import url('./blocks/price/price__img.css');
+@import url('./blocks/price/rice__img-title.css');
+@import url('./blocks/price/price__desc-title.css');
+@import url('./blocks/price/price__desc-text.css');
+@import url('./blocks/price/price-blocks.css');
