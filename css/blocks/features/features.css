@@ -1,0 +1,40 @@
+.features {
+    border: solid #f5f5f5 1px;
+    padding: 30px;
+    margin-bottom: 30px;
+    line-height: 35px;
+}
+
+.features__desc {
+    text-align: center;
+}
+
+.features__title {
+    font-size: 11px;
+    letter-spacing: 3px;
+    padding: 15px 0;
+}
+
+
+.features__text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.features__list {
+    align-self: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 35px;
+}
+
+
+.features__item {
+    list-style: disc;
+    color: #ec1e79;
+    justify-content: space-between;
+}
+
+.features__item span {
+    margin-left: 20px;
+}

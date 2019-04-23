@@ -1,0 +1,7 @@
+.banner {
+    background: center center no-repeat;
+    background-image: url(../../../img/Banner.png);
+    margin: 0 auto;
+    width: 100%;
+	min-height: 358px;
+}

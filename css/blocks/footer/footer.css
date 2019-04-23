@@ -1,6 +1,32 @@
 .footer {
-    font-size: 0;
-    padding: 14px 0;
+    display: flex;
     background-color: #27273e;
-    min-width: 1100px;
+    min-height: 80px;
+    color: #ffffff;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about__footer {
+    width: 310px;
+    font-weight: 400;
+}
+
+.about__footer a {
+    text-decoration: underline;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.about__footer span {
+    font-weight: bold;
+}
+
+.logo {
+    display: block;
+}
+
+.logo__image {
+    align-items: center;
 }

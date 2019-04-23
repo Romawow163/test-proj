@@ -1,36 +1,20 @@
 @import url('./layout/fonts.css');
+@import url('./layout/base.css');
 @import url('./layout/normalize.css');
-@import url('.//layout/base.css');
 
-@import url('./blocks/header/header.css');
-@import url('./blocks/header/logo.css');
+@import url('./blocks/banner/banner.css');
+@import url('./blocks/index/index.css');
 @import url('./blocks/header/contacts.css');
-
-@import url('./blocks/basestyles/maincontent.css');
-@import url('./blocks/Index/banner.css');
-@import url('./blocks/sidebar/sidebar.css');
-@import url('./blocks/sidebar/main-nav.css');
-@import url('./blocks/basestyles/page-content.css');
-@import url('./blocks/Index/features.css');
-@import url('./blocks/basestyles/section-title.css');
-@import url('./blocks/Index/news.css');
-@import url('./blocks/basestyles/paginations.css');
+@import url('./blocks/header/header__menu.css');
+@import url('./blocks/features/features.css');
+@import url('./blocks/socials/socials.css');
+@import url('./blocks/news-comments/news-comments.css');
+@import url('./blocks/pagination/pagination.css');
 @import url('./blocks/footer/footer.css');
-@import url('./blocks/footer/footer-text.css');
-@import url('./blocks/footer/footer__logo.css');
-@import url('./blocks/footer/footer_container.css');
-@import url('./blocks/footer/socials.css');
-@import url('./blocks/footer/social__icons.css');
 
-@import url('./blocks/comments/breadcrumbs.css');
-@import url('./blocks/comments/reviews.css');
-@import url('./blocks/comments/reviews__card.css');
-@import url('./blocks/comments/addinational.css');
-@import url('./blocks/comments/form.css');
-
-@import url('./blocks/price/price__desc.css');
-@import url('./blocks/price/price__img.css');
-@import url('./blocks/price/rice__img-title.css');
-@import url('./blocks/price/price__desc-title.css');
-@import url('./blocks/price/price__desc-text.css');
-@import url('./blocks/price/price-blocks.css');
+@import url('./blocks/menu/menu.css');
+@import url('./blocks/delimiter/delimiter.css');
+@import url('./blocks/form/form.css');
+@import url('./blocks/form/btn.css');
+@import url('./blocks/price/price.css');
+@import url('./blocks/partners/patrners.css');

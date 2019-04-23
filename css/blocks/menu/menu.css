@@ -1,0 +1,71 @@
+.menu {
+    margin-bottom: 30px;
+}
+
+.menu__list {
+    display: flex;
+    margin: 0 -25px;
+}
+
+.menu__link {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ec1e79;
+    margin: 0 25px;
+}
+
+.menu__link:hover {
+    color: #000000;
+}
+
+.menu__link:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 18px;
+    background-image: url("../../../img/icons/css_sprites.png");
+    margin-right: 25px;
+}
+
+.menu__item--active .menu__link {
+    color: #000000;
+}
+
+.menu__link--main:before {
+    background-position: -10px -10px;
+}
+
+.menu__link--main:hover:before {
+    background-position: -47px -10px;
+}
+
+.menu__item--active .menu__link--main:before {
+    background-position: -47px -10px;
+}
+
+.menu__link--feed:before {
+    background-position: -241px -10px;
+}
+
+.menu__link--feed:hover:before {
+    background-position: -281px -10px;
+}
+
+.menu__item--active .menu__link--feed:before {
+    background-position: -281px -10px;
+}
+
+.menu__link--wallet:before {
+    background-position: -123px -10px;
+}
+
+.menu__link--wallet:hover:before {
+    background-position: -162px -10px;
+}
+
+.menu__item--active .menu__link--wallet:before {
+    background-position: -162px -10px;
+}

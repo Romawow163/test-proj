@@ -1,0 +1,38 @@
+.partners {
+    border: solid #f5f5f5 1px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.partners__title {
+    padding-bottom: 30px;
+}
+
+.partners__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners__item {
+    filter: sepia(1) contrast(.1);
+    padding: 20px 0;
+}
+
+.partners__item:last-child {
+    padding-bottom: 0;
+}
+
+.partners__item:hover {
+    filter: none;
+}
+
+.partners__link {
+    display: block;
+}
+
+.partners__link img {
+    max-width: 100%;
+    max-height: 100%;
+}

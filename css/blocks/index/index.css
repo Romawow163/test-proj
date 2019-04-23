@@ -1,0 +1,112 @@
+.login {
+    position: relative;
+    width: 170px;
+    -webkit-animation-name: previewAnimation;
+    animation-name: previewAnimation;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.login__img {
+    width: 100%;
+    padding: 0 5px;
+    margin-bottom: 40px;
+}
+
+.login__img img {
+    width: 100%;
+}
+
+.login__link {
+    display: inline-block;
+    width: 100%;
+    border: solid #ec1e79;
+    border-radius: 3px;
+    padding: 10px;
+    color: #ec1e79;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.login__link:hover {
+    color: #ffffff;
+    background-color: #ec1e79;
+}
+
+@-webkit-keyframes previewAnimation {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.1) rotate(30deg);
+        transform: scale(0.1) rotate(30deg);
+        -webkit-transform-origin: center bottom;
+        transform-origin: center bottom;
+    }
+
+    50% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+
+    70% {
+        -webkit-transform: rotate(3deg);
+        transform: rotate(3deg);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes previewAnimation {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.1) rotate(30deg);
+        transform: scale(0.1) rotate(30deg);
+        -webkit-transform-origin: center bottom;
+        transform-origin: center bottom;
+    }
+
+    50% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+
+    70% {
+        -webkit-transform: rotate(3deg);
+        transform: rotate(3deg);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.wrapper__login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 0;
+    background-image: url("../../../img/intro.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper__login:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ec1e79;
+    opacity: 0.15;
+}
