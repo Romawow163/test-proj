@@ -11,6 +11,7 @@
 @import url('./blocks/news-comments/news-comments.css');
 @import url('./blocks/pagination/pagination.css');
 @import url('./blocks/footer/footer.css');
+<<<<<<< HEAD
 
 @import url('./blocks/menu/menu.css');
 @import url('./blocks/delimiter/delimiter.css');
@@ -18,3 +19,23 @@
 @import url('./blocks/form/btn.css');
 @import url('./blocks/price/price.css');
 @import url('./blocks/partners/patrners.css');
+=======
+@import url('./blocks/footer/footer-text.css');
+@import url('./blocks/footer/footer__logo.css');
+@import url('./blocks/footer/footer_container.css');
+@import url('./blocks/footer/socials.css');
+@import url('./blocks/footer/social__icons.css');
+
+@import url('./blocks/comments/breadcrumbs.css');
+@import url('./blocks/comments/reviews.css');
+@import url('./blocks/comments/reviews__card.css');
+@import url('./blocks/comments/addinational.css');
+@import url('./blocks/comments/form.css');
+
+@import url('./blocks/price/price__desc.css');
+@import url('./blocks/price/price__img.css');
+@import url('./blocks/price/rice__img-title.css');
+@import url('./blocks/price/price__desc-title.css');
+@import url('./blocks/price/price__desc-text.css');
+@import url('./blocks/price/price-blocks.css');
+>>>>>>> a242c2e0bd431d0a7a2fe78064c0edff9446bb84
